@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stio.h>
+#include <stdio.h>
 
 /**
  * Main - function
@@ -11,26 +11,25 @@
 
 int main(void)
 {
-	int n;
-	int stephy;
+int n;
+int stephy;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	stephy = n % 10;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+stephy = n % 10;
 
-	if (stephy > 5)
+if (stephy > 5)
 {
-	printf("Last digit %d is %d and is greater than 5\n", n, stephy);
+	printf("Last digit of %d is %d and is greater than 5\n", n, stephy);
 }
-	else if (stephy == 0)
+else if (stephy == 0)
 {
-	printf("Last digit %d and is 0\n", n, stephy);
+	printf("Last digit of %d is %d and is 0\n", n, stephy);
 }
-	else
+else
 {
-	printf("Last digit %d and is less than 6 and not 0\n", n, stephy)
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, stephy);
 }
-
-	return (0);
+return (0);
 }
 
