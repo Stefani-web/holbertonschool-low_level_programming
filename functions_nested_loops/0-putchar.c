@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main function print
+ * main - function print
  *
  * Always return 0
  */
