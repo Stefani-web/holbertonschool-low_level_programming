@@ -7,9 +7,8 @@
  */
 
 int main(void)
-
 {
-char lettre;
+	char lettre;
 
 	for (lettre = 'a'; lettre >= 'z'; lettre--)
 	{
