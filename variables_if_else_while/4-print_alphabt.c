@@ -7,19 +7,16 @@
  */
 
 int main(void)
-
 {
-	char lettre;
+	char stephy;
 
-	for (lettre = 'a'; lettre <= 'z'; lettre++)
-	{
-	putchar(lettre);
-	}
+	for (stephy = 'a'; stephy <= 'z'; stephy++)
 
-	if (lettre != 'q' && lettre != 'e')
+	if (stephy == 'q' || stephy == 'e')
 
+	putchar(stephy);
 	putchar('\n');
-
 	return (0);
+
 }
 
