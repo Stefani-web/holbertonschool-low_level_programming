@@ -11,12 +11,10 @@ int main(void)
 	char stephy;
 
 	for (stephy = 'a'; stephy <= 'z'; stephy++)
-
-	if (stephy == 'q' || stephy == 'e')
-
+	if (stephy != 'q' && stephy != 'e')
 	putchar(stephy);
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
 
