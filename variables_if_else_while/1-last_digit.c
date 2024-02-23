@@ -3,13 +3,15 @@
 #include <time.h>
 
 /**
- * Main - function
+ * main - function
+ *
  * Generation a random number for the variable
  *
  * Return: 0
  */
 
 int main(void)
+
 {
 int n;
 int stephy;
