@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - puts
+ * main - function to print
  *
  * Always return 0
  *
@@ -10,7 +10,15 @@
 
 int main(void)
 {
-	puts("_putchar");
+	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	unsigned int c;
+
+	for (c = 0; c < sizeof(_putchar); c++)
+	{
+		_putchar(_putchar[c]);
+	}
+
+	_putchar('\n');
 	return (0);
 }
 
