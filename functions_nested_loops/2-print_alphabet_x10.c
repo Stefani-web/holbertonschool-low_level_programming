@@ -10,11 +10,16 @@
 void print_alphabet_x10(void)
 {
 	char c;
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		_putchar(c);
-	}
+	int ligne = 0;
 
-	putchar('\n');
+	while (ligne < 10)
+	{
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		ligne++;
+		_putchar('\n');
+	}
 }
 
