@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** print_diagonal - Function that draws a diagonal line
+/**
+ * print_diagonal - Function that draws a diagonal line
  * @n:
  *
  * Return: Always 0
@@ -17,7 +18,7 @@ void print_diagonal(int n)
 			for (colonne = 1; colonne < ligne; colonne++)
 			{
 				_putchar(' ');
-        		}
+			}
 			_putchar('\\');
 			_putchar('\n');
 		}
