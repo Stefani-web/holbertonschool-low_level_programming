@@ -3,8 +3,8 @@
 
 /**
  * _strchr - Function that locates a character in a string
- * @s: The string to be searched.
- * @c: The character to be located.
+ * @s: string to be searched
+ * @c: character to be located
  *
  * Return: NULL
  *
