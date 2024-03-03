@@ -2,23 +2,27 @@
 #include "main.h"
 
 /**
- * _strchr - Function that locates a char in a string
- * @s: string to be searched
- * @c: character to be located
- *
- * Return: NULL
+ * leet - function that encodes a string into 1337.
+ * @str: pointer
+ * Return: str
  */
 
-char *_strchr(char *s, char c)
+char *leet(char *str)
 {
-	int index;
+	int index = 0, idx;
+	char leet[11] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	for (index = 0; s[index] >= '\0'; index++)
+	while (str[index])
 	{
-		if (s[index] == c)
-			return (s + index);
+		for (idx = 0; idx <= 7; idx++)
+		{
+			if (str[index] == leet[idx] || str[index] - 32 == leet[idx])
+			{
+				str[index] = idx + '0';
+			}
+		}
+		index++;
 	}
-
-	return ('\0');
+	return (str);
 }
 
