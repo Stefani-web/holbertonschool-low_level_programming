@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_chessboard - Function that prints the chessboard
+ * @a: double array
  *
  */
 
