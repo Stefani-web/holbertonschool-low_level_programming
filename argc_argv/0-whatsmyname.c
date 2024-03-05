@@ -5,7 +5,7 @@
  * @argv: Var that contains the num of arguments
  * @argc: Var that contains the num of arguments
  *
- * Retur: Always 0
+ * Return: Always 0
  */
 
 int main(int argc, char *argv[])
