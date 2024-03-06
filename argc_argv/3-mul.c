@@ -3,9 +3,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * main - program that multiplies two numbers
+ * @argc: Arguments
+ * @argv: double pointer
+ * Return: Always 0
  */
 
 int main(int argc, char **argv)
