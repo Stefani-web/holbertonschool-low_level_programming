@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * _strdup - Function that returns a pointer
+ * @str: string of char
+ *
+ * Return: a pointer to a newly allocated space in memory
+ */
+
 char *_strdup(char *str)
 {
 	char *copy;
