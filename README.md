@@ -1,5 +1,7 @@
 holbertonschool-low_level_programming
 
+By: Julien Barbier
+
 <img src="https://trustmyscience.com/wp-content/uploads/2020/01/langage-c-popularite.jpg" alt="Langage C">
 
 - hello_world
