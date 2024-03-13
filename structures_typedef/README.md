@@ -2,7 +2,7 @@ C - STRUCTURES, TYPEDEF
 
 By: Julien Barbier
 
-<img src="https://files.codingninjas.in/article_images/typedef-keyword-in-cpp-0-1690021207.webp" alt="Typedef">
+<img src="https://i.ytimg.com/vi/9guJVmDyFmE/maxresdefault.jpg" alt="Typedef">
 
 -----------------------
 TASK 0. Poppy
