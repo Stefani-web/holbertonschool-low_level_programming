@@ -1,5 +1,7 @@
 C - MALLOC, FREE
 
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*7lBxAamBlTEtKNdr1MOgPQ.jpeg" alt="malloc">
+
 By: Julien Barbier
 
 -----------------------
