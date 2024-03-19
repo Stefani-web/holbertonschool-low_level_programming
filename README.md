@@ -15,3 +15,4 @@ By: Julien Barbier
 - [more_malloc-free](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/more_malloc_free)
 - [structures_typedef](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/structures_typedef)
 - [function_pointers](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/function_pointers)
+- [variadic_functions](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/variadic_functions)
