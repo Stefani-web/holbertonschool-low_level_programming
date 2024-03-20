@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "3-calc.h"
 
 /**
  * get_op_func - Function
  * details: get_op_func
- * @s: char
+ * @s: char oper. (+,*,-,/,%)
  *
  * Return: pointer
  */
