@@ -2,7 +2,7 @@
 
 /**
  * print_list - Print elements of the list
- * @h: pointer to the first element in the lis
+ * @h: pointer to the first element in the list
  *
  * Return: the number of nodes in the list
  */
