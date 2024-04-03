@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * structure representing a list element
+ */
 typedef struct list_s
 {
 	char *str;
