@@ -12,23 +12,21 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
+	int Stringlength = 0;
+
+	while (str[Stringlength] != '\0')
+	{
+		Stringlength++;
+	}
 
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
 	{
-		return (NULL); /* Return NULL if malloc fails */
-	}
-
-	/* Duplicate the string using strdup and store it in the new node */
-	new_node->str = strdup(str);
-	if (new_node->str == NULL)
-	{
-		free(new_node);
 		return (NULL);
 	}
 
-	/* Set the new node's next pointer to the current head of the list */
-
+	new_node->str = strdup(str);
+	new_node->len = Stringlength;
 	new_node->next = *head;
 
 	*head = new_node;
