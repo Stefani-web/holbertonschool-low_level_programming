@@ -10,13 +10,13 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+	int fldescription = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	ssize_t bytes_written;
 
 	if (filename == NULL)
 		return (-1);
 
-	if (fd == -1)
+	if (fldescription == -1)
 		return (-1);
 
 	/*If text_content is NULL, create an empty file*/
@@ -25,12 +25,12 @@ int create_file(const char *filename, char *text_content)
 		for (bytes_written = 0; text_content[bytes_written]; bytes_written++)
 			;
 
-		if (write(fd, text_content, bytes_written) == -1) {
-			close(fd);
+		if (write(fldescription, text_content, bytes_written) == -1) {
+			close(fldescription);
 			return (-1);
 		}
 	}
 
-	close(fd);
+	close(fldescription);
 	return (1);
 }
