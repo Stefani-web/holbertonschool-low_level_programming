@@ -8,12 +8,12 @@ La manipulation de bits en C est une technique qui permet de travailler directem
 
 Voici les opérateurs de manipulation de bits les plus couramment utilisés en C :
 
-- ET bit à bit (&) : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où les deux bits sont 1.
-- OU inclusif bit à bit (|) : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où au moins un des bits est 1.
-- OU exclusif bit à bit (^) : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où exactement un des bits est 1.
-- NON bit à bit (~) : Inverse tous les bits d’un nombre (les 0 deviennent des 1 et vice versa).
-- Décalage à gauche (<<) : Décale tous les bits d’un nombre vers la gauche d’un certain nombre de positions, en ajoutant des zéros à droite.
-- Décalage à droite (>>) : Décale tous les bits d’un nombre vers la droite d’un certain nombre de positions, en ajoutant des zéros à gauche ou en conservant le bit de signe pour les nombres signés.
+- **ET bit à bit (&)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où les deux bits sont 1.
+- **OU inclusif bit à bit (|)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où au moins un des bits est 1.
+- **OU exclusif bit à bit (^)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où exactement un des bits est 1.
+- **NON bit à bit (~)** : Inverse tous les bits d’un nombre (les 0 deviennent des 1 et vice versa).
+- **Décalage à gauche (<<)** : Décale tous les bits d’un nombre vers la gauche d’un certain nombre de positions, en ajoutant des zéros à droite.
+- **Décalage à droite (>>)** : Décale tous les bits d’un nombre vers la droite d’un certain nombre de positions, en ajoutant des zéros à gauche ou en conservant le bit de signe pour les nombres signés.
 Ces opérateurs sont essentiels pour des tâches telles que le réglage, la suppression ou le basculement de bits individuels, la création de masques de bits et l’extraction de sous-ensembles de bits d’un nombre entier.
 
 # <p align="center">Exemples</p>
