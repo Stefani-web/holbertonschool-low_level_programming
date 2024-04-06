@@ -144,7 +144,7 @@ void free_list(list_t *head);
 
 ## ➤ License
 Distributed under the MIT License.
-See [LICENSE(https://www.holbertonschool.fr/) for more information.
+See [LICENSE](https://www.holbertonschool.fr/) for more information.
 
 
 ## 🙇 Author
