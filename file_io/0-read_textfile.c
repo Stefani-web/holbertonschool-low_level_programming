@@ -5,10 +5,14 @@
  * @filename: the name of the file to read
  * @letters: the number of letters to read and print
  *
+ * Description: Opens file, reads up to 'letters' characters,
+ * and prints them to standard output. If an error occurs,
+ * or if 'filename' is NULL, the function returns 0.
+ *
  * Return: The actual number of letters read and printed, or 0 in case of error
  */
 
-ssize_t c(const char *filename, size_t letters)
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fldescription = open(filename, O_RDONLY);
 	char *buffer = malloc(sizeof(char) * letters);
