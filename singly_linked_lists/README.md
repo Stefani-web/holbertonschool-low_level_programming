@@ -4,21 +4,21 @@
   <img src="https://i.ytimg.com/vi/vcQIFT79_50/maxresdefault.jpg" alt="img singly linked" />
 </p>
 
-Une liste simplement chaînée en C est une structure de données linéaire composée de nœuds, où chaque nœud contient une donnée et un pointeur vers le nœud suivant dans la séquence. Le dernier nœud pointe vers NULL, indiquant la fin de la liste. Voici les caractéristiques principales d’une liste simplement chaînée :
+A singly linked list in C is a linear data structure composed of nodes, where each node contains a piece of data and a pointer to the next node in the sequence. The last node points to NULL, indicating the end of the list. Here are the main characteristics of a simply linked list:
 
-- Structure de Nœud : Chaque nœud a généralement deux composants : une partie de données (qui peut être de n’importe quel type de données) et un pointeur vers le nœud suivant.
+- **Node Structure**: Each node generally has two components: a data part (which can be of any data type) and a pointer to the next node.
 
-- Insertion et Suppression : Les opérations d’insertion et de suppression sont efficaces car elles ne nécessitent que de modifier les pointeurs, sans avoir besoin de déplacer les éléments comme dans un tableau.
+- **Insert and Delete**: Insert and delete operations are efficient because they only require modifying pointers, without needing to move elements like in an array.
 
-- Parcours: Pour accéder à un élément, il faut parcourir la liste depuis le début jusqu’à l’élément désiré. Cela peut être moins efficace que l’accès direct offert par les tableaux.
+- **Browse**: To access an element, you must browse the list from the beginning to the desired element. This may be less efficient than the direct access provided by tables.
 
-- Utilisation de la Mémoire : La mémoire est allouée dynamiquement pour chaque nouvel élément, ce qui peut conduire à une meilleure utilisation de la mémoire par rapport aux tableaux de taille fixe.
+- **Memory Usage**: Memory is dynamically allocated for each new element, which can lead to better memory usage compared to fixed-size arrays.
 
-# <p align="center">Exemples</p>
+# <p align="center">Examples</p>
 
-Voici un exemple simple de;
+This is a simple example of;
 
-- la définition d’un nœud en C :
+- the definition of a node in C :
 
 ```
 struct Node
@@ -27,7 +27,7 @@ struct Node
     struct Node* next;
 };
 ```
-- Insertion au début :
+- Insert at start:
 
 ```
 void insertStart(struct Node** head, int newData)
@@ -38,7 +38,7 @@ void insertStart(struct Node** head, int newData)
     *head = newNode;
 }
 ```
-- Suppression du début :
+- Deleting the beginning :
 
 ```
 void deleteStart(struct Node** head)
@@ -49,7 +49,7 @@ void deleteStart(struct Node** head)
     free(temp);
 }
 ```
-- Affichage de la liste :
+- List view :
 
 ```
 void printList(struct Node* node)
@@ -62,7 +62,7 @@ void printList(struct Node* node)
     printf("\n");
 }
 ```
-- Recherche d’un élément :
+- Searching for an item:
 
 ```
 struct Node* search(struct Node* head, int key)
@@ -76,28 +76,28 @@ struct Node* search(struct Node* head, int key)
     return (NULL);
 }
 ```
-Ces exemples couvrent les opérations de base que vous pouvez effectuer sur une liste simplement chaînée.
+These examples cover the basic operations you can perform on a singly linked list.
 
 # <p align="center">Instructions d'installation</p>
-
 ```
-- Un compilateur C : All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-## Instructions d'installation
+## Installation Instructions
 
-Pour compiler et exécuter ce projet de liste doublement chaînée en C, suivez les étapes ci-dessous :
+To compile and run this doubly linked list project in C, follow the steps below:
 
-1. **Installer un compilateur C** :
-   Assurez-vous que vous avez un compilateur C installé sur votre système. GCC est un choix populaire pour les systèmes Unix-like, tandis que Visual Studio est couramment utilisé sur Windows.
+A C compiler: All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
-2. **Télécharger le code source** :
-   Clonez ou téléchargez le code source du projet depuis le dépôt GitHub ou toute autre plateforme de partage de code.
+1. **Install a C compiler**:
+    Make sure you have a C compiler installed on your system. GCC is a popular choice for Unix-like systems, while Visual Studio is commonly used on Windows.
 
-3. **Compiler le projet** :
-	Ouvrez un terminal ou une invite de commande et naviguez jusqu'au répertoire contenant le code source. Compilez le code en utilisant la commande suivante :
-	```bash
-	gcc -o nom_du_programme source.c
+2. **Download the source code**:
+    Clone or download the project source code from the GitHub repository or any other code sharing platform.
+
+3. **Compile the project**:
+Open a terminal or command prompt and navigate to the directory containing the source code. Compile the code using the following command:
+```bash
+gcc -o source_program_name.c
 ```
-- Vous êtes autorisé à utiliser [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
+- You are authorized to use [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
 
 - Please use this data structure for this project:
 
@@ -119,7 +119,7 @@ typedef struct list_s
 ```
 
 
-# <p align="center">commandes de compilation pour chaque taches</p>
+# <p align="center">compilation commands for each task</p>
 
 ```
 0. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_list.c -o a
@@ -149,7 +149,7 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 ```
 
-# <p align="center">Tutoriels</p>
+# <p align="center">Tutorials</p>
 
 - [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&t=130s&ab_channel=UNSWeLearning)
 - [Link](https://www.geeksforgeeks.org/singly-linked-list-tutorial/)
