@@ -4,15 +4,15 @@
   <img src="https://www.c-sharpcorner.com/article/doubly-linked-list-and-circular-linked-list-in-c-sharp/Images/DeleteAtEnd.png" alt="img doubly linked" />
 </p>
 
-Une liste doublement chaînée en C est une structure de données où chaque nœud contient trois composants : un pointeur vers le nœud précédent (prev), une donnée (data), et un pointeur vers le nœud suivant (next). Contrairement aux listes simplement chaînées, les listes doublement chaînées permettent un parcours bidirectionnel, ce qui facilite l’insertion et la suppression de nœuds à diverses positions dans la liste.
+A doubly linked list in C is a data structure where each node contains three components: a pointer to the previous node (prev), a piece of data (data), and a pointer to the next node (next). Unlike singly linked lists, doubly linked lists allow bidirectional traversal, making it easier to insert and remove nodes at various positions in the list.
 
-Les avantages des listes doublement chaînées par rapport aux listes simplement chaînées incluent une suppression plus efficace des nœuds et la possibilité de parcourir la liste dans les deux sens. Cependant, elles nécessitent plus de mémoire en raison des pointeurs supplémentaires et des opérations légèrement plus complexes pour maintenir les pointeurs prev et next lors des insertions et suppressions.
+The advantages of doubly linked lists over singly linked lists include more efficient node removal and the ability to iterate through the list in both directions. However, they require more memory due to the additional pointers and slightly more complex operations to maintain the prev and next pointers during insertions and deletions.
 
-# <p align="center">Exemples</p>
+# <p align="center">Examples</p>
 
-Voici un exemple de;
+This is an example of:
 
-- la définition d’un nœud pour une liste doublement chaînée en C :
+- defining a node for a doubly linked list in C:
 
 ```
 struct Node
@@ -23,7 +23,7 @@ struct Node
 };
 
 ```
-- Insertion au début :
+- Insert at the beginning:
 
 ```
 void insertAtFront(struct Node** head, int newData)
@@ -39,7 +39,7 @@ void insertAtFront(struct Node** head, int newData)
 	(*head) = newNode;
 }
 ```
-- Suppression du début :
+- Deleting the beginning:
 
 ```
 void deleteFromFront(struct Node** head)
@@ -54,7 +54,7 @@ void deleteFromFront(struct Node** head)
 	free(toDelete);
 }
 ```
-- Insertion à la fin :
+- Insert at the end:
 
 ```
 void insertAtEnd(struct Node** head, int newData)
@@ -77,7 +77,7 @@ void insertAtEnd(struct Node** head, int newData)
     newNode->prev = last;
 }
 ```
-- Suppression de la fin :
+- Removing the ending:
 
 ```
 void deleteFromEnd(struct Node** head)
@@ -98,7 +98,7 @@ void deleteFromEnd(struct Node** head)
 	free(toDelete);
 }
 ```
-- Affichage de la liste :
+- List view:
 
 ```
 void printList(struct Node* node)
@@ -121,26 +121,27 @@ void printList(struct Node* node)
 }
 ```
 
-# <p align="center">Instructions d'installation</p>
+# <p align="center">Installation Instructions</p>
 ```
-- Un compilateur C : All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
-## Instructions d'installation
+## Installation Instructions
 
-Pour compiler et exécuter ce projet de liste doublement chaînée en C, suivez les étapes ci-dessous :
+To compile and run this doubly linked list project in C, follow the steps below:
 
-1. **Installer un compilateur C** :
-   Assurez-vous que vous avez un compilateur C installé sur votre système. GCC est un choix populaire pour les systèmes Unix-like, tandis que Visual Studio est couramment utilisé sur Windows.
+A C compiler: All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 
-2. **Télécharger le code source** :
-   Clonez ou téléchargez le code source du projet depuis le dépôt GitHub ou toute autre plateforme de partage de code.
+1. **Install a C compiler**:
+    Make sure you have a C compiler installed on your system. GCC is a popular choice for Unix-like systems, while Visual Studio is commonly used on Windows.
 
-3. **Compiler le projet** :
-	Ouvrez un terminal ou une invite de commande et naviguez jusqu'au répertoire contenant le code source. Compilez le code en utilisant la commande suivante :
-	```bash
-	gcc -o nom_du_programme source.c
+2. **Download the source code**:
+    Clone or download the project source code from the GitHub repository or any other code sharing platform.
+
+3. **Compile the project**:
+Open a terminal or command prompt and navigate to the directory containing the source code. Compile the code using the following command:
+```bash
+gcc -o source_program_name.c
 ```
 
-- Vous êtes autorisé à utiliser [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
+- You are authorized to use [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
 
 - Please use this data structure for this project:
 
@@ -162,7 +163,7 @@ typedef struct dlistint_s
 } dlistint_t;
 ```
 
-# <p align="center">commandes de compilation pour chaque taches</p>
+# <p align="center">compilation commands for each task</p>
 
 ```
 0. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_dlistint.c -o a
@@ -200,7 +201,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 ```
 
-# <p align="center">Tutoriels</p>
+# <p align="center">Tutorials</p>
 
 - [Doubly Linked Lists](https://www.youtube.com/watch?v=k0pjD12bzP0)
 
