@@ -6,13 +6,13 @@
 
 Une liste simplement chaînée en C est une structure de données linéaire composée de nœuds, où chaque nœud contient une donnée et un pointeur vers le nœud suivant dans la séquence. Le dernier nœud pointe vers NULL, indiquant la fin de la liste. Voici les caractéristiques principales d’une liste simplement chaînée :
 
-- Structure de Nœud : Chaque nœud a généralement deux composants : une partie de données (qui peut être de n’importe quel type de données) et un pointeur vers le nœud suivant123.
+- Structure de Nœud : Chaque nœud a généralement deux composants : une partie de données (qui peut être de n’importe quel type de données) et un pointeur vers le nœud suivant.
 
-- Insertion et Suppression : Les opérations d’insertion et de suppression sont efficaces car elles ne nécessitent que de modifier les pointeurs, sans avoir besoin de déplacer les éléments comme dans un tableau1.
+- Insertion et Suppression : Les opérations d’insertion et de suppression sont efficaces car elles ne nécessitent que de modifier les pointeurs, sans avoir besoin de déplacer les éléments comme dans un tableau.
 
-- Parcours: Pour accéder à un élément, il faut parcourir la liste depuis le début jusqu’à l’élément désiré. Cela peut être moins efficace que l’accès direct offert par les tableaux1.
+- Parcours: Pour accéder à un élément, il faut parcourir la liste depuis le début jusqu’à l’élément désiré. Cela peut être moins efficace que l’accès direct offert par les tableaux.
 
-- Utilisation de la Mémoire : La mémoire est allouée dynamiquement pour chaque nouvel élément, ce qui peut conduire à une meilleure utilisation de la mémoire par rapport aux tableaux de taille fixe4.
+- Utilisation de la Mémoire : La mémoire est allouée dynamiquement pour chaque nouvel élément, ce qui peut conduire à une meilleure utilisation de la mémoire par rapport aux tableaux de taille fixe.
 
 # <p align="center">Exemples</p>
 
