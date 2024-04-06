@@ -16,3 +16,7 @@ By: Julien Barbier
 - [structures_typedef](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/structures_typedef)
 - [function_pointers](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/function_pointers)
 - [variadic_functions](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/variadic_functions)
+- [singly_linked_lists](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/singly_linked_lists)
+- [doubly_linked_lists](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/doubly_linked_lists)
+- [bit_manipulation](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/bit_manipulation)
+- [file_io](https://github.com/Stefani-web/holbertonschool-low_level_programming/tree/main/file_io)
