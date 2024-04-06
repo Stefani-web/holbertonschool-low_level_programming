@@ -58,8 +58,8 @@ close_file_description(fld_from, fld_to);
 
 /**
  * close_file_description - Funct clse fl descr & exit wth error if the case
- * @fld_from: file description of origin
- * @fld_to: file description ot destination
+ * @fld_from: file descr. of origin
+ * @fld_to: file descr. ot destinatO
 */
 
 void close_file_description(int fld_from, int fld_to)
