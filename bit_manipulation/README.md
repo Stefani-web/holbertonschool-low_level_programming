@@ -1,26 +1,26 @@
-# <p align="center">Bit manipulation</p>
+# <p align="center">Bit_manipulation</p>
 
 <p align="center">
   <img src="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/11/Bit-Manipulation-in-C-Programming-Language.png?fit=1280%2C720&ssl=1" alt="img Bit manipulation" />
 </p>
 
-La manipulation de bits en C est une technique qui permet de travailler directement avec les bits individuels d’une valeur stockée en mémoire. En utilisant les opérateurs de manipulation de bits, les développeurs peuvent effectuer des opérations logiques et arithmétiques au niveau des bits, ce qui peut être plus rapide et plus efficace que de travailler avec des valeurs entières ou d’autres types de données.
+Bit manipulation in C is a technique that allows you to work directly with the individual bits of a value stored in memory. By using bit manipulation operators, developers can perform bit-level logic and arithmetic operations, which can be faster and more efficient than working with integer values or other data types.
 
-Voici les opérateurs de manipulation de bits les plus couramment utilisés en C :
+Here are the most commonly used bit manipulation operators in C:
 
-- **ET bit à bit (&)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où les deux bits sont 1.
-- **OU inclusif bit à bit (|)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où au moins un des bits est 1.
-- **OU exclusif bit à bit (^)** : Compare chaque bit de deux nombres et renvoie un 1 pour chaque position où exactement un des bits est 1.
-- **NON bit à bit (~)** : Inverse tous les bits d’un nombre (les 0 deviennent des 1 et vice versa).
-- **Décalage à gauche (<<)** : Décale tous les bits d’un nombre vers la gauche d’un certain nombre de positions, en ajoutant des zéros à droite.
-- **Décalage à droite (>>)** : Décale tous les bits d’un nombre vers la droite d’un certain nombre de positions, en ajoutant des zéros à gauche ou en conservant le bit de signe pour les nombres signés.
-Ces opérateurs sont essentiels pour des tâches telles que le réglage, la suppression ou le basculement de bits individuels, la création de masques de bits et l’extraction de sous-ensembles de bits d’un nombre entier.
+- **Bitwise AND (&)**: Compares each bit of two numbers and returns a 1 for each position where both bits are 1.
+- **Bitwise inclusive OR (|)**: Compares each bit of two numbers and returns a 1 for each position where at least one of the bits is 1.
+- **Bitwise exclusive OR (^)**: Compares each bit of two numbers and returns a 1 for each position where exactly one of the bits is 1.
+- **NO bit by bit (~)**: Inverts all the bits of a number (0s become 1s and vice versa).
+- **Left Shift (<<)**: Shifts all bits of a number to the left a certain number of positions, adding zeros to the right.
+- **Shift Right (>>)**: Shifts all bits of a number to the right a certain number of positions, adding zeros to the left or retaining the sign bit for signed numbers.
+These operators are essential for tasks such as setting, removing, or toggling individual bits, creating bit masks, and extracting subsets of bits from an integer.
 
-# <p align="center">Exemples</p>
+# <p align="center">Examples</p>
 
-Voici un exemple de;
+This is an example of:
 
-- Définir un bit (mettre un bit à 1) :
+- Set a bit (set a bit to 1):
 
 ```
 unsigned int setBit(unsigned int num, int position)
@@ -29,7 +29,7 @@ unsigned int setBit(unsigned int num, int position)
 }
 
 ```
-- Effacer un bit (mettre un bit à 0) :
+- Clear a bit (set a bit to 0):
 
 ```
 unsigned int clearBit(unsigned int num, int position)
@@ -38,7 +38,7 @@ unsigned int clearBit(unsigned int num, int position)
 }
 
 ```
-- Basculer un bit (changer l’état d’un bit) :
+- Toggle a bit (change the state of a bit):
 
 ```
 unsigned int toggleBit(unsigned int num, int position)
@@ -47,7 +47,7 @@ unsigned int toggleBit(unsigned int num, int position)
 }
 
 ```
-- Vérifier un bit (tester si un bit est à 1 ou 0) :
+- Check a bit (test if a bit is 1 or 0):
 
 ```
 int checkBit(unsigned int num, int position)
@@ -56,7 +56,7 @@ int checkBit(unsigned int num, int position)
 }
 
 ```
-- Obtenir le bit le plus à droite (trouver le premier bit à 1) :
+- Get the rightmost bit (find the first bit to be 1):
 ```
 int getRightmostSetBit(unsigned int num)
 {
@@ -64,28 +64,29 @@ int getRightmostSetBit(unsigned int num)
 }
 
 ```
-Ces fonctions démontrent comment effectuer des opérations de base sur les bits d’un nombre entier en utilisant les opérateurs de manipulation de bits en C.
+These functions demonstrate how to perform basic operations on the bits of an integer using the bit manipulation operators in C.
 
-# <p align="center">Instructions d'installation</p>
+# <p align="center">Installation Instructions</p>
 ```
-- Un compilateur C : All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- A C compiler: All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+## Installation Instructions
 
-Pour compiler et exécuter ce projet de liste doublement chaînée en C, suivez les étapes ci-dessous :
+To compile and run this doubly linked list project in C, follow the steps below:
 
-1. **Installer un compilateur C** :
-   Assurez-vous que vous avez un compilateur C installé sur votre système. GCC est un choix populaire pour les systèmes Unix-like, tandis que Visual Studio est couramment utilisé sur Windows.
+1. **Install a C compiler**:
+    Make sure you have a C compiler installed on your system. GCC is a popular choice for Unix-like systems, while Visual Studio is commonly used on Windows.
 
-2. **Télécharger le code source** :
-   Clonez ou téléchargez le code source du projet depuis le dépôt GitHub ou toute autre plateforme de partage de code.
+2. **Download the source code**:
+    Clone or download the project source code from the GitHub repository or any other code sharing platform.
 
-3. **Compiler le projet** :
-	Ouvrez un terminal ou une invite de commande et naviguez jusqu'au répertoire contenant le code source. Compilez le code en utilisant la commande suivante :
-	```bash
-	gcc -o nom_du_programme source.c
+3. **Compile the project**:
+Open a terminal or command prompt and navigate to the directory containing the source code. Compile the code using the following command:
+```bash
+gcc -o source_program_name.c
 ```
 - Vous êtes autorisé à utiliser [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
 
-# <p align="center">commandes de compilation pour chaque taches</p>
+# <p align="center">compilation commands for each task</p>
 
 ```
 0. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-binary_to_uint.c -o a
@@ -121,7 +122,7 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 ```
 
-# <p align="center">Tutoriels</p>
+# <p align="center">Tutorials</p>
 
 - [Bit manipulation](https://www.youtube.com/watch?v=glYr5m0Q0eA&ab_channel=CodingOverflow)
 
