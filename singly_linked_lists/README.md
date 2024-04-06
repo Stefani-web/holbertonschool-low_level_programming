@@ -80,11 +80,23 @@ Ces exemples couvrent les opérations de base que vous pouvez effectuer sur une 
 
 # <p align="center">Instructions d'installation</p>
 
+```
 - Un compilateur C : All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-- Un éditeur de texte ou un IDE : Vous pouvez utiliser un éditeur de texte simple comme Vim, Emacs, ou Nano, ou un environnement de développement intégré (IDE) comme Code::Blocks, Eclipse CDT, ou CLion qui offre des fonctionnalités supplémentaires comme le débogage et la gestion de projet.
-- Outils de débogage : GDB (GNU Debugger) est utile pour déboguer votre code et résoudre les problèmes.
-- Valgrind : Cet outil est utile pour détecter les fuites de mémoire et les erreurs de gestion de la mémoire, ce qui est crucial lors de la manipulation de listes chaînées.
-- Assurez-vous que votre environnement de développement est configuré correctement pour compiler et exécuter des programmes en C. Vous pouvez trouver des tutoriels en ligne pour vous aider à installer et à configurer ces outils sur votre système1234.
+## Instructions d'installation
+
+Pour compiler et exécuter ce projet de liste doublement chaînée en C, suivez les étapes ci-dessous :
+
+1. **Installer un compilateur C** :
+   Assurez-vous que vous avez un compilateur C installé sur votre système. GCC est un choix populaire pour les systèmes Unix-like, tandis que Visual Studio est couramment utilisé sur Windows.
+
+2. **Télécharger le code source** :
+   Clonez ou téléchargez le code source du projet depuis le dépôt GitHub ou toute autre plateforme de partage de code.
+
+3. **Compiler le projet** :
+	Ouvrez un terminal ou une invite de commande et naviguez jusqu'au répertoire contenant le code source. Compilez le code en utilisant la commande suivante :
+	```bash
+	gcc -o nom_du_programme source.c
+```
 - Vous êtes autorisé à utiliser [_putchar](https://github.com/hs-hq/_putchar.c/blob/main/_putchar.c)
 
 - Please use this data structure for this project:
