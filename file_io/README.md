@@ -16,7 +16,7 @@ Here are the key concepts of file management in C:
 
 File operations in C are powerful and allow detailed manipulation of permanently stored data
 
-# <p align="center">Exemples</p>
+# <p align="center">Examples</p>
 
 This is an example of:
 
